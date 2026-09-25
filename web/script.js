@@ -1,4 +1,5 @@
-const input = document.getElementById("submit");
-input.oneclick = function(){
-    alert("You are now Registered ! Thank You....")
-};
+const button = document.getElementById('submit');
+
+  button.onclick = function() {
+    alert('You are now registerd! Thank you.');
+  };

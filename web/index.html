@@ -7,7 +7,6 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <script src="script.js"></script>
     <img src="https://cdn.cgc.ac.in/images/logo-full.png">
 
     <h1>REGISTERATION FORM</h1>
@@ -49,5 +48,12 @@
         </table>
     </form>
         <marquee behavior="" direction="" id="text">ALERT ! WITHOUT FILLING THE FORM DO NOT CLICK REGISTER NOW</marquee>
+     <script>
+            const input = document.getElementById('submit');
+
+  input.onclick = function() {
+    alert('You are now registerd! Thank you.');
+  };
+        </script>
 </body>
 </html>
