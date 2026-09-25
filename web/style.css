@@ -1,0 +1,19 @@
+body {
+    background-image:url(https://assets.cgc.ac.in//appFiles//MarwadiWebAPI//Banners/8dc7e_Banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+img {
+    background-color:transparent;
+}
+
+#text {
+    color: rgb(255, 255, 255);
+    font-style: italic;
+    font-size: xx-large;
+    background-color: red;
+    background-size: auto;
+    font-weight: bolder;
+    scroll-behavior: smooth;
+}
