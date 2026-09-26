@@ -10,7 +10,9 @@ public class Scannertest {
         int b = nub.nextInt();
         int c = a + b;
 
-        System.out.println("Sum of number =" + c);
+        System.out.println("Sum of numbers = " + c);
+
+        nub.close();
     }
     
 
