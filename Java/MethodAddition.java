@@ -2,7 +2,7 @@ package Java;
 import java.util.Scanner;
 
 public class MethodAddition {
-    static int add (int a,int b){
+    static int add (int a,int b){  //we need to write 'static' before any method
         return a + b;
     }
     public static void main(String[] args) {
@@ -14,7 +14,7 @@ public class MethodAddition {
 
 
         System.out.println("Addition of Two number: " + sum);
-        
+
         number.close();
     }
 }
