@@ -1,4 +1,5 @@
 package Java;
+
 import java.util.Scanner;
 
 public class Scannertest {
@@ -14,7 +15,5 @@ public class Scannertest {
 
         nub.close();
     }
-    
 
-    
 }
