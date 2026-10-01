@@ -1,5 +1,3 @@
-
-
 import java.util.Scanner;
 
 public class MethodAddition {
@@ -8,14 +6,15 @@ public class MethodAddition {
     }
 
     public static void main(String[] args) {
+        System.out.print("Enter first and Second number: ");
+
         Scanner number = new Scanner(System.in);
 
-        System.out.print("Enter first and Second number: ");
 
         int sum = add(number.nextInt(), number.nextInt());
 
-        System.out.println("Addition of Two number: " + sum);
-
+        System.out.println("Addition of Two no: " + sum);
+        
         number.close();
     }
 }
