@@ -6,17 +6,17 @@ public class AdditionofArr{
         Scanner nub = new Scanner(System.in);
         
         int[] arr = new int[5];
-        System.out.println("Enter your 5 number--> ");
         
         
-         for(int i = 0; i < arr.length; i++){
+        
+        for(int i = 0; i < arr.length; i++){
             
-        arr[i] = nub.nextInt();
+            System.out.println("Enter your "+(i + 1)+" number--> ");
+        
+                arr[i] = nub.nextInt();
             
             
-    
-            
-    }
+         }
     nub.close();
 
         }
