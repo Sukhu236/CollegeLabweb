@@ -20,7 +20,7 @@ public class Searchinglinear {
             }
         }
         if(!found){
-                System.out.println("Number not exist:"+ search);
+                System.out.println("Number not exist: "+ search);
             }
             nub.close();
     }
