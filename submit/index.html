@@ -11,11 +11,11 @@
 
         <table>
             <td>
-                <tr>A</tr>
+                <tr>Number 1: </tr>
                 <tr><input type="number" id="btn1" ></tr>
             </td><br><br>
             <td>
-                <tr>B</tr>
+                <tr>Number 2:</tr>
                 <tr><input type="number" id="btn2"></tr>
             </td><br><br>
 
@@ -31,6 +31,7 @@
             var b = Number(document.getElementById("btn2").value);
             let add = a + b ;
             document.write("Addition = " + add);
+            document.getElementById("btn").innerHTML = "Addition = " + add ;
 }
 
             
