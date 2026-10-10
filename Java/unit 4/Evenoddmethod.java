@@ -1,3 +1,4 @@
+
 public class Evenoddmethod {
     static boolean EvenOdd(int a){
         return a % 2 == 0 ;

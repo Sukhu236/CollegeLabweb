@@ -14,7 +14,7 @@ public class MethodIsFactorial {
     
         System.out.print(i);
         
-        }System.out.println(a;
+        }System.out.println(a);
         
         return a ;
         
