@@ -1,0 +1,15 @@
+td {
+    height: 40px;
+}
+
+h1 {
+    font-size-adjust: calc(0.8);
+    font-style: italic;
+    
+}
+
+p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: small;
+}
+

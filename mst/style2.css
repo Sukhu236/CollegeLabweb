@@ -1,0 +1,31 @@
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    
+}
+
+h2 {
+    font-size-adjust: calc(2);
+    
+}
+
+.login {
+    border-color: black;
+    border-radius: 10cm;
+    line-height: 4cap;
+
+}
+
+.gender {
+    
+
+
+}
+
+.box {
+
+
+}
