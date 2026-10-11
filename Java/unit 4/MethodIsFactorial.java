@@ -4,26 +4,22 @@ public class MethodIsFactorial {
 
     static int isFactorial(int a){
 
-        int fa = 0;
+        int fa = 1;
 
     for(int i = a; i > 0; i --){
 
+        fa = fa * i ;
         
-        
-    
-    
-        System.out.print(i);
-        
-        }System.out.println(a);
-        
-        return a ;
+        }
+        return fa ;
         
     }
 
         public static void main(String[] args) {
             int b;
             b = isFactorial(5);
-            System.out.println("");
+            
+            System.out.println(b);
             
         }
 }
