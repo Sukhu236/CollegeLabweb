@@ -1,7 +1,7 @@
 // Data types in java
 // 1. number
 var nub1 = 45;
-var nub2= 10;
+var nub2 = 10;
 var nub3 = 45;
 // console.log(nub1,nub2,nub3);
 // console.log(nub1+nub2+nub3);
@@ -13,10 +13,10 @@ var str2 = "i am sukhu";
 // console.log(str1, str2);
 
 // 3. Objects
-var mark ={
+var mark = {
     ram: 20,
-    sham :30,
-    mohan :50
+    sham: 30,
+    mohan: 50
 }
 // console.log(marks);
 
@@ -36,17 +36,17 @@ var b = 10;
 // console.log(a == b);
 
 
-var arr = [10,20,30,40,50];
+var arr = [10, 20, 30, 40, 50];
 arr[1] = 60;
 arr[4] = 'Sukhu';
 
 
 // function
 
-function isEven(nub){
-    if(nub % 2 == 0){
+function isEven(nub) {
+    if (nub % 2 == 0) {
         return true;
-    }else{
+    } else {
         return false;
     }
 }
@@ -113,25 +113,48 @@ else
     }
 */
 
-    //with function function 
-    var arr2 = [1,2,3,4,5];
+//with function function 
+var arr2 = [1, 2, 3, 4, 5];
 
-    arr2.forEach(function(element){
+arr2.forEach(function (element) {
     //console.log(element);
-    })
- 
+})
 
-    // with for loop
 
-     for(var i = 0; i < arr2.length; i ++){
-       // console.log(arr2[i]);
-     }
+// with for loop
 
-     // with while loop
+for (var i = 0; i < arr2.length; i++) {
+    // console.log(arr2[i]);
+}
 
-     let j = 0;
-     while(j < arr2.length){
-        console.log(arr2[j]);
-        j ++;
-    
-     }
+// with while loop
+
+let j = 0;
+while (j < arr2.length) {
+   // console.log(arr2[j]);
+    j++;
+
+}
+
+//Methods in array
+
+     let myarr = ['sukhu', 'fan' , 34 , 'mohan', 8 ];
+    //  console.log(myarr.length);
+    //  myarr.pop();     // delete at end
+    //  myarr.push('simran');    // add at end
+    //  myarr.shift();    //delete from start
+    //  myarr.unshift('Harry');   // add at start
+
+    //  console.log(myarr);
+
+    //methods in string
+
+    let str = "Hello my name is sukhpreet";
+    // console.log(str.length);
+    // console.log(str.slice(0,3));
+    // let d = str.replace("Hello", "Sir");
+    // console.log(d);
+
+
+    let mydate = new Date();
+    // console.log(mydate);

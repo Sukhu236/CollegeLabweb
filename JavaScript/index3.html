@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .highlight { background: gold; }
+  </style>
+</head>
+<body>
+  <h2 id="msg">Hover over me</h2>
+  <button id="btn">Change text</button>
+
+  <form id="form">
+    <input type="text" id="name" placeholder="Your name">
+    <button type="submit">Submit</button>
+  </form>
+  <p id="result"></p>
+
+  <script>
+    const msg = document.getElementById("msg");
+    const btn = document.getElementById("btn");
+    const form = document.getElementById("form");
+    const result = document.querySelector("#result");
+
+    // click: change content and style
+    btn.addEventListener("click", function () {
+      msg.textContent = "You clicked the button!";
+      msg.style.color = "teal";
+    });
+
+    // mouseover / mouseout: toggle a CSS class
+    msg.addEventListener("mouseover", function () {
+      msg.classList.add("highlight");
+    });
+    msg.addEventListener("mouseout", function () {
+      msg.classList.remove("highlight");
+    });
+
+    // submit: stop the page reload and show a greeting
+    form.addEventListener("submit", function (event) {
+      event.preventDefault();
+      const name = document.getElementById("name").value;
+      result.textContent = "Hello, " + name + "!";
+    });
+  </script>
+</body>
+</html>
