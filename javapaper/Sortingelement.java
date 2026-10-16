@@ -1,0 +1,24 @@
+package javapaper;
+
+public class Sortingelement {
+    public static void main(String[] args) {
+        
+            int[] arr = {50,30,20,40,10};
+            int sorted = 0 ;
+
+            for(int i = 0; i < arr.length; i ++){
+
+                for(int j = i + 1; j < arr.length; j ++){
+
+                        arr[i] > arr [j];
+                        int temp = arr[i];
+                        arr[i] = arr[j];
+                        temp = arr[j];
+                    
+                }
+                
+            }
+            
+            
+        }
+}
